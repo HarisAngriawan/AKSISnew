@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0">
+    <include layout="@layout/common_app_bar" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvDetailPelanggaran"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

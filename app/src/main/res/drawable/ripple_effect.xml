@@ -1,0 +1,30 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/blue"
+    tools:targetApi="lollipop">
+    <item>
+        <selector>
+            <item android:state_selected="true">
+                <color android:color="@color/blue" />
+            </item>
+            <item android:state_activated="true">
+                <color android:color="@color/blue" />
+            </item>
+
+            <item>
+                <color android:color="@color/gradient" />
+            </item>
+            <shape android:shape="rectangle">
+                <solid android:color="#f816a463" />
+                <size
+                    android:width="70dp"
+                    android:height="40dp" />
+                <corners android:radius="8dp" />
+                <stroke
+                    android:width="1dp"
+                    android:color="#3bbdfa" />
+            </shape>
+        </selector>
+
+    </item>
+</ripple>

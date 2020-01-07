@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.binainsanlesatari.aksis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Izin.DetailPermohonanIzin" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.edit_profil_siswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.laporan_pelajaran_siswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.Suratpermohonan" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.UpdateNilai.UpdateNilaiTugas" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Siswa.ProfileSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.LaporanPelajaran.addLaporanPelajaran" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.LaporanPelajaran.LaporanPelajaranSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.PanggilanOrtu.PanggilanOrtu" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.PanggilanOrtu.AddPanggilanOrtu" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.PermohonanIzin" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Ketidakhadiran" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.ChangePassword" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Konseling.InputKonseling" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Prestasi.InputPrestasiSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiUAS" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiTugas" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiUTS" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.TakeAllStudents" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.PenelusuranAlumni.InsertPenelusuranAlumni.InsertAlumni" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiUH" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.HomeVisit.InputHomeVisit.InsertHomeVisit" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.HomeVisit.CatatanHomeVisit" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Konseling.CatatanKoseling" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.PenelusuranAlumni.PenelusuranAlumni" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Kehadiran.KehadiranSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.MainFragment" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.LoginSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.inputPelanggaran.mainInputPelanggaran" />
+        <activity android:name="com.binainsanlesatari.aksis.IntroApps" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Rating.Rating" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_UAS" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_UTS" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_Tugas" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Prestasi.Prestasi" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.Pelanggaran" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.dataPelanggaran.getPelanggaran" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.dataPelanggaran.ViewPelanggaran" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Siswa.GetSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.EditProfileGuru" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_UH" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilaiGuru" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Siswa.ViewKelas" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.DashboardSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.WelcomeLogin" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.LoginGuru" />
+        <activity android:name="com.binainsanlesatari.aksis.SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

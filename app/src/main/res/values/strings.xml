@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AKSIS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spsiswa_tanggal"><u>Tanggal</u></string>
+</resources>

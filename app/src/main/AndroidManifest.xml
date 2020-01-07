@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.binainsanlesatari.aksis">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ViewGuru.Izin.DetailPermohonanIzin"></activity>
+        <activity android:name=".ViewSiswa.edit_profil_siswa" />
+        <activity android:name=".ViewSiswa.laporan_pelajaran_siswa" />
+        <activity android:name=".ViewSiswa.Suratpermohonan" />
+        <activity android:name=".ViewGuru.InputNilai.UpdateNilai.UpdateNilaiTugas" />
+        <activity android:name=".ViewGuru.Siswa.ProfileSiswa" />
+        <activity android:name=".ViewGuru.LaporanPelajaran.addLaporanPelajaran" />
+        <activity android:name=".ViewGuru.LaporanPelajaran.LaporanPelajaranSiswa" />
+        <activity android:name=".ViewGuru.PanggilanOrtu.PanggilanOrtu" />
+        <activity android:name=".ViewGuru.PanggilanOrtu.AddPanggilanOrtu" />
+        <activity android:name=".ViewGuru.PermohonanIzin" />
+        <activity android:name=".ViewGuru.Ketidakhadiran" />
+        <activity android:name=".ViewGuru.ChangePassword" />
+        <activity android:name=".ViewGuru.Konseling.InputKonseling" />
+        <activity android:name=".ViewGuru.Prestasi.InputPrestasiSiswa" />
+        <activity android:name=".ViewGuru.InputNilai.GetNilai.GetNilaiUAS" />
+        <activity android:name=".ViewGuru.InputNilai.GetNilai.GetNilaiTugas" />
+        <activity android:name=".ViewGuru.InputNilai.GetNilai.GetNilaiUTS" />
+        <activity android:name=".ViewGuru.TakeAllStudents" />
+        <activity android:name=".ViewGuru.PenelusuranAlumni.InsertPenelusuranAlumni.InsertAlumni" />
+        <activity android:name=".ViewGuru.InputNilai.GetNilai.GetNilaiUH" />
+        <activity android:name=".ViewGuru.HomeVisit.InputHomeVisit.InsertHomeVisit" />
+        <activity android:name=".ViewGuru.HomeVisit.CatatanHomeVisit" />
+        <activity android:name=".ViewGuru.Konseling.CatatanKoseling" />
+        <activity android:name=".ViewGuru.PenelusuranAlumni.PenelusuranAlumni" />
+        <activity android:name=".ViewGuru.Kehadiran.KehadiranSiswa" />
+        <activity android:name=".ViewGuru.MainFragment" />
+        <activity android:name=".ViewSiswa.LoginSiswa" />
+        <activity android:name=".ViewGuru.Pelanggaran.inputPelanggaran.mainInputPelanggaran" />
+        <activity android:name=".IntroApps" />
+        <activity android:name=".ViewGuru.Rating.Rating" />
+        <activity android:name=".ViewGuru.InputNilai.InputNilai_UAS" />
+        <activity android:name=".ViewGuru.InputNilai.InputNilai_UTS" />
+        <activity android:name=".ViewGuru.InputNilai.InputNilai_Tugas" />
+        <activity android:name=".ViewGuru.Prestasi.Prestasi" />
+        <activity android:name=".ViewGuru.Pelanggaran.Pelanggaran" />
+        <activity android:name=".ViewGuru.Pelanggaran.dataPelanggaran.getPelanggaran" />
+        <activity android:name=".ViewGuru.Pelanggaran.dataPelanggaran.ViewPelanggaran" />
+        <activity android:name=".ViewGuru.Siswa.GetSiswa" />
+        <activity android:name=".ViewGuru.EditProfileGuru" />
+        <activity android:name=".ViewGuru.InputNilai.InputNilai_UH" />
+        <activity android:name=".ViewGuru.InputNilaiGuru" />
+        <activity android:name=".ViewGuru.Siswa.ViewKelas" />
+        <activity android:name=".ViewSiswa.DashboardSiswa" />
+        <activity android:name=".WelcomeLogin" />
+        <activity android:name=".ViewGuru.LoginGuru" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
