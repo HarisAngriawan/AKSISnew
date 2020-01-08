@@ -49,9 +49,9 @@
 28        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Izin.DetailPermohonanIzin" />
 28-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:19:9-81
 28-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:19:19-69
-29        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.edit_profil_siswa" />
-29-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:9-65
-29-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:19-62
+29        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.EditProfileSiswa" />
+29-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:9-64
+29-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:19-61
 30        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.laporan_pelajaran_siswa" />
 30-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:21:9-71
 30-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:21:19-68
@@ -175,9 +175,9 @@
 70        <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Siswa.ViewKelas" />
 70-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:61:9-62
 70-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:61:19-59
-71        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.DashboardSiswa" />
-71-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:9-62
-71-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:19-59
+71        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.MainFragmentSiswa" />
+71-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:9-65
+71-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:19-62
 72        <activity android:name="com.binainsanlesatari.aksis.WelcomeLogin" />
 72-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:63:9-50
 72-->H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:63:19-47

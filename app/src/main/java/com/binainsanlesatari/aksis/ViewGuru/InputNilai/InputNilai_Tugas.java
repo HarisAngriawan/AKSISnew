@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -13,6 +14,8 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.binainsanlesatari.aksis.R;
 import com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiTugas;
+import com.binainsanlesatari.aksis.model.GuruModel.LaporanPelajaran.DataKelas;
+import com.binainsanlesatari.aksis.model.GuruModel.LaporanPelajaran.DataKelasItem;
 import com.binainsanlesatari.aksis.model.GuruModel.Nilai.DataKelasInputNilaiItem;
 import com.binainsanlesatari.aksis.model.GuruModel.Nilai.DataMapelItem;
 import com.binainsanlesatari.aksis.model.GuruModel.Nilai.MapelResponse;
@@ -27,14 +30,23 @@ import com.binainsanlesatari.aksis.utils.AppParams;
 import com.binainsanlesatari.aksis.utils.PrefManagerGuru;
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 public class InputNilai_Tugas extends AppCompatActivity {
-    private Spinner spTugasKelas, spTugasMapel, spTugasSemes, spTugasTa;
-    private ArrayAdapter<String> adpClass, adpMapel, adpSemester, adpTA;
+    private Spinner spTugasKelas, spTugasMapel, spTugasSemes, spTugasTa,spNomorKelas;
+    private ArrayAdapter<String> adpClass, adpMapel, adpSemester, adpTA,adpNomorKelas;
     Button showTugas;
+
+    List<DataKelasInputNilaiItem> kelasList = new ArrayList<>();
+    PrefManagerGuru prefManagerGuru;
+    String npsn;
+    String idguru;
+    String password = "duniamaya";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,27 +59,30 @@ public class InputNilai_Tugas extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
-
+        prefManagerGuru = new PrefManagerGuru(this);
         adpClass = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item);
+        adpNomorKelas = new ArrayAdapter<>(this, R.layout.my_spinner);
         adpMapel = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item);
         adpSemester = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item);
         adpTA = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item);
 
-
+        spNomorKelas = findViewById(R.id.spNomorKelasnilaiTugas);
         spTugasMapel = findViewById(R.id.select_mapel);
         spTugasSemes = findViewById(R.id.select_semester);
         spTugasTa = findViewById(R.id.select_th_ajaran);
         spTugasKelas = findViewById(R.id.select_kelas);
         showTugas = findViewById(R.id.showTugas);
 
+        npsn = prefManagerGuru.getUser().getNpsn();
+        idguru = prefManagerGuru.getUser().getIdPengguna();
 
         spTugasKelas.setAdapter(adpClass);
         spTugasMapel.setAdapter(adpMapel);
         spTugasSemes.setAdapter(adpSemester);
         spTugasTa.setAdapter(adpTA);
+        spNomorKelas.setAdapter(adpNomorKelas);
 
-        final String idGuru = new PrefManagerGuru(this).getUser().getIdPengguna();
-        getMyClass(idGuru);
+        getMyClass();
         String npsnGuru = new PrefManagerGuru(this).getUser().getNpsn();
         getMyMapel(npsnGuru);
         getSemester();
@@ -91,22 +106,60 @@ public class InputNilai_Tugas extends AppCompatActivity {
         });
     }
 
-    private void getMyClass(String idGuru) {
-        Log.i("DATA KELAS", idGuru);
+    private void getMyClass() {
         ApiGuru apiGuru = RetrofitInstance.create().create(ApiGuru.class);
 
-        apiGuru.getMyClass(idGuru, "duniamaya").enqueue(new Callback<NilaiResponse>() {
+        apiGuru.getMyClass(idguru, password).
+                enqueue(new Callback<NilaiResponse>() {
+                    @Override
+                    public void onResponse(Call<NilaiResponse> call, Response<NilaiResponse> response) {
+                        kelasList.clear();
+                        kelasList = response.body().getDataKelasInputNilai();
+                        List<String> string = new ArrayList<>();
+                        for (DataKelasInputNilaiItem kelas : kelasList) {
+                            string.add(kelas.getIdKelasDiajar());
+                        }
+                        adpClass.clear();
+                        adpClass.addAll(string);
+                    }
+
+                    @Override
+                    public void onFailure(Call<NilaiResponse> call, Throwable t) {
+
+                    }
+                });
+        spTugasKelas.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onResponse(Call<NilaiResponse> call, Response<NilaiResponse> response) {
-                for (DataKelasInputNilaiItem kelas : response.body().getDataKelasInputNilai()) {
-                    String item = kelas.getIdKelasDiajar();
-                    adpClass.add(item);
-                    adpClass.notifyDataSetChanged();
-                }
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                getNomorKelas(kelasList.get(i).getIdKelasDiajar());
             }
 
             @Override
-            public void onFailure(Call<NilaiResponse> call, Throwable t) {
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+    }
+
+    private void getNomorKelas(String idKelasDiajar) {
+        ApiGuru apiGuru = RetrofitInstance.create().create(ApiGuru.class);
+        String npsn = prefManagerGuru.getUser().getNpsn();
+        String idguru = prefManagerGuru.getUser().getIdPengguna();
+
+        apiGuru.getKelasLaporan(npsn, idguru, idKelasDiajar, "duniamaya").enqueue(new Callback<DataKelas>() {
+            @Override
+            public void onResponse(Call<DataKelas> call, Response<DataKelas> response) {
+                List<DataKelasItem> data = response.body().getDataKelas();
+                List<String> string = new ArrayList<>();
+                for (DataKelasItem kelas : data) {
+                    string.add(kelas.getNamaKelas());
+                }
+                adpNomorKelas.clear();
+                adpNomorKelas.addAll(string);
+            }
+
+            @Override
+            public void onFailure(Call<DataKelas> call, Throwable t) {
 
             }
         });
@@ -171,6 +224,7 @@ public class InputNilai_Tugas extends AppCompatActivity {
 
             }
         });
+
     }
 
     @Override

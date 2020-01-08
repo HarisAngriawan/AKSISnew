@@ -48,8 +48,8 @@ public interface ApiSiswa {
     );
     @GET("getlaporanpelajaransiswa.php")
     Call<Laporanpelajaransiswa> getlaporansiswa(
-            @Query("npsn")String npsn,
             @Query("tgl")String tgl,
+            @Query("npsn")String npsn,
             @Query("kelas")String kls
 
     );

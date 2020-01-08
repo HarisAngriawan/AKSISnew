@@ -8,7 +8,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.binainsanlesatari.aksis.ViewGuru.MainFragment;
-import com.binainsanlesatari.aksis.ViewSiswa.DashboardSiswa;
+import com.binainsanlesatari.aksis.ViewSiswa.MainFragmentSiswa;
 import com.binainsanlesatari.aksis.model.GuruModel.Login.LoginGuru.Guru;
 import com.binainsanlesatari.aksis.model.GuruModel.Login.LoginSiswa.Siswa;
 import com.binainsanlesatari.aksis.utils.PrefManagerGuru;
@@ -88,7 +88,7 @@ public class SplashScreen extends AppCompatActivity {
             Intent intent = new Intent(SplashScreen.this, MainFragment.class);
             startActivity(intent);
         } else if (siswa != null) {
-            Intent intent = new Intent(SplashScreen.this, DashboardSiswa.class);
+            Intent intent = new Intent(SplashScreen.this, MainFragmentSiswa.class);
             startActivity(intent);
         } else {
             Intent intent = new Intent(SplashScreen.this, IntroApps.class);

@@ -22,6 +22,8 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.binainsanlesatari.aksis.BuildConfig;
 import com.binainsanlesatari.aksis.R;
+import com.binainsanlesatari.aksis.WelcomeLogin;
+import com.binainsanlesatari.aksis.model.GuruModel.UPDATEGURU.UpdateProfilGuru;
 import com.binainsanlesatari.aksis.model.SiswaModel.InputPermohonan;
 import com.binainsanlesatari.aksis.model.SiswaModel.uploadimg;
 import com.binainsanlesatari.aksis.network.ApiUpdate;
@@ -46,7 +48,7 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class EditProfileGuru extends AppCompatActivity {
-    private TextInputEditText edNip, edNoHp,edJenisKelamin, edJabatan, edAlamat;
+    private TextInputEditText edNip, edNoHp,edJenisKelamin, edJabatan, edAlamat,edNamaSekolah,edNamaGuru;
 
     private FloatingActionButton gantiFoto;
     private ProgressDialog progress;
@@ -56,10 +58,10 @@ public class EditProfileGuru extends AppCompatActivity {
     private CircleImageView fotoGuru;
 
     private PrefManagerGuru prefManagerGuru;
-    Button saveDataGuru;
+    private Button saveDataGuru;
     private ApiUpdate uploadFoto;
 
-    private String nama,nip,jk,jabatan,alamat,no_hp,npsn;
+    private String nama,nip,jabatan,alamat,no_hp,npsn,nama_sekolah;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +76,7 @@ public class EditProfileGuru extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         LinearLayout tbMenuContainer = findViewById(R.id.tbMenuContainer);
+
         saveDataGuru = new Button(this);
         saveDataGuru.setText("Simpan");
         saveDataGuru.setBackgroundColor(getResources().getColor(R.color.gradient));
@@ -82,14 +85,15 @@ public class EditProfileGuru extends AppCompatActivity {
         saveDataGuru.setPadding(2, 2, 2, 2);
         tbMenuContainer.addView(saveDataGuru);
 
+        edNamaGuru = findViewById(R.id.edEditNamaGuru);
         edNip = findViewById(R.id.edEditNipGuru);
+        edNamaSekolah = findViewById(R.id.edEditNamaSekolah);
         edNoHp = findViewById(R.id.edEditNo_hp);
         edJenisKelamin = findViewById(R.id.edEditJk);
         edJabatan = findViewById(R.id.edEditJabatan);
         edAlamat = findViewById(R.id.edEditAlamat);
         tvNama = findViewById(R.id.tvEditNamaGuru);
         tvNPSN = findViewById(R.id.tvEditNpsnSekolah);
-
 
         prefManagerGuru = new PrefManagerGuru(this);
         no_hp = prefManagerGuru.getUser().getNoHp();
@@ -98,11 +102,15 @@ public class EditProfileGuru extends AppCompatActivity {
         nip = prefManagerGuru.getUser().getNip();
         jabatan = prefManagerGuru.getUser().getStatus();
         alamat = prefManagerGuru.getUser().getAlamat();
+        nama_sekolah = prefManagerGuru.getUser().getNama_sekolah();
+
+        edNamaGuru.setText(nama);
         edNip.setText(nip);
         edNoHp.setText(no_hp);
         edJabatan.setText(jabatan);
         edAlamat.setText(alamat);
-        tvNama.setText(nama);
+        edNamaSekolah.setText(nama_sekolah);
+        tvNama.setText(nama.toUpperCase());
         tvNPSN.setText(npsn);
 
         String gender;
@@ -123,8 +131,7 @@ public class EditProfileGuru extends AppCompatActivity {
                 if (value == 1) {
                     imgpathprofil = response.body().getPath();
                     Picasso.with(EditProfileGuru.this).load(BuildConfig.BASE_URL+imgpathprofil).fit().centerCrop()
-                            .placeholder(R.drawable.student)
-                            .error(R.drawable.student)
+                            .placeholder(R.drawable.teacher)
                             .into(fotoGuru);
                 } else {
                     Toast.makeText(EditProfileGuru.this, message, Toast.LENGTH_SHORT).show();
@@ -145,13 +152,74 @@ public class EditProfileGuru extends AppCompatActivity {
 
             }
         });
+        saveDataGuru.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+             showDialog();
+            }
+        });
     }
+    private void showDialog() {
+        android.app.AlertDialog.Builder alertDialogBuilder = new android.app.AlertDialog.Builder(
+                this);
+
+        alertDialogBuilder.setTitle("Apakah Anda Yakin ingin merubah Data?");
+
+        alertDialogBuilder
+                .setMessage("Jika Yakin setelah, klik ya. Anda akan dikembalikan ke halaman login untuk login kembali.")
+                .setCancelable(false)
+                .setPositiveButton("Ya", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        updateData();
+                    }
+                })
+                .setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+
+        android.app.AlertDialog alertDialog = alertDialogBuilder.create();
+
+        alertDialog.show();
+    }
+    private void updateData() {
+        ApiUpdate apiUpdate = RetrofitInstance.create().create(ApiUpdate.class);
+        String id = prefManagerGuru.getUser().getId();
+        String nama = edNamaGuru.getText().toString();
+        String no_hp = edNoHp.getText().toString();
+        String alamat = edAlamat.getText().toString();
+
+        apiUpdate.updateProfilGuru(id,nama,no_hp,alamat).enqueue(new Callback<UpdateProfilGuru>() {
+            @Override
+            public void onResponse(Call<UpdateProfilGuru> call, Response<UpdateProfilGuru> response) {
+                Boolean value = response.body().isValue();
+                String message = response.body().getMessage();
+
+                if (value.equals(true)){
+                    Toast.makeText(EditProfileGuru.this,message,Toast.LENGTH_SHORT).show();
+                    prefManagerGuru.deleteGuru();
+                    Intent intent = new Intent(EditProfileGuru.this, WelcomeLogin.class);
+                    startActivity(intent);
+                    finish();
+                }else {
+                    Toast.makeText(EditProfileGuru.this,message,Toast.LENGTH_SHORT).show();
+                }
+            }
+
+            @Override
+            public void onFailure(Call<UpdateProfilGuru> call, Throwable t) {
+
+            }
+        });
+    }
+
     public void tampilpilihan(){
         AlertDialog.Builder pictureDialog = new AlertDialog.Builder(this);
-        pictureDialog.setTitle("Select Action");
+        pictureDialog.setTitle("Pilih Metode");
         String[] pictureDialogItems = {
-                "Select photo from gallery",
-                "Capture photo from camera" };
+                "Pilih Dari Gallery",
+                "Ambil Dengan Camera" };
         pictureDialog.setItems(pictureDialogItems,
                 new DialogInterface.OnClickListener() {
                     @Override

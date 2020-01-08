@@ -34,7 +34,7 @@ public class GetNilaiTugas extends AppCompatActivity {
     private RecyclerView rvNilaiTugas;
 
     ShimmerFrameLayout shimmerFrameLayout;
-
+    // TODO TENTUIN KONSEP NILAI
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

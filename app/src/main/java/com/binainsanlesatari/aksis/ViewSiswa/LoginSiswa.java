@@ -76,7 +76,7 @@ public class LoginSiswa extends AppCompatActivity {
                         if (status.equals("true")) {
                             prefManagerSiswa.saveSiswa(response.body().getData().get(0));
                             Toast.makeText(LoginSiswa.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(LoginSiswa.this, DashboardSiswa.class);
+                            Intent intent = new Intent(LoginSiswa.this, MainFragmentSiswa.class);
                             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                             startActivity(intent);
                         }

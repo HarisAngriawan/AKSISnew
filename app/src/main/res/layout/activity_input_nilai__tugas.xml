@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ViewGuru.InputNilai.InputNilai_UH">
-    <include layout="@layout/common_app_bar"/>
+
+    <include layout="@layout/common_app_bar" />
 
     <TextView
-        android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="10dp"
         android:text="Pilih Kelas :"
@@ -28,10 +29,31 @@
         android:spinnerMode="dropdown" />
 
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:text="Kelas Siswa"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spNomorKelasnilaiTugas"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/spinner_input_nilai"
+        android:focusable="false"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="15dp"
         android:layout_marginBottom="10dp"
         android:text="Pilih Pelajaran :"
@@ -103,18 +125,20 @@
 
         </LinearLayout>
     </LinearLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:id="@+id/showTugas"
-            android:background="@drawable/btn_gradient_style"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:layout_marginTop="100dp"
-            android:text="Tampilkan"/>
+            android:background="@drawable/btn_gradient_style"
+            android:text="Tampilkan" />
     </RelativeLayout>
 
 </LinearLayout>

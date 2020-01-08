@@ -1,6 +1,7 @@
 package com.binainsanlesatari.aksis.network;
 
 import com.binainsanlesatari.aksis.model.GuruModel.UPDATEGURU.UpdatePassGuru;
+import com.binainsanlesatari.aksis.model.GuruModel.UPDATEGURU.UpdateProfilGuru;
 import com.binainsanlesatari.aksis.model.GuruModel.UPDATEGURU.VerifikasiIzin;
 import com.binainsanlesatari.aksis.model.SiswaModel.InputPermohonan;
 import com.binainsanlesatari.aksis.model.SiswaModel.uploadimg;
@@ -53,4 +54,13 @@ public interface ApiUpdate {
             @Field("no_hp")String no_hp
     );
 
+    //Update Edit Profil Guru
+    @FormUrlEncoded
+    @POST("updateProfilGuru.php")
+    Call<UpdateProfilGuru> updateProfilGuru(
+            @Field("id")String id,
+            @Field("nama")String nama,
+            @Field("no_hp")String no_hp,
+            @Field("alamat")String alamat
+    );
 }

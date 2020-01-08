@@ -27,6 +27,7 @@ public class Adplaporanpelajaransiswa extends RecyclerView.Adapter<Adplaporanpel
     public void setData(List<DataLaporanPelajaranItem> laporanData) {
         dataLaporan.clear();
         dataLaporan.addAll(laporanData);
+        notifyDataSetChanged();
     }
 
     @NonNull

@@ -26,7 +26,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Izin.DetailPermohonanIzin" />
-        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.edit_profil_siswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.EditProfileSiswa" />
         <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.laporan_pelajaran_siswa" />
         <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.Suratpermohonan" />
         <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.UpdateNilai.UpdateNilaiTugas" />
@@ -68,7 +68,7 @@
         <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_UH" />
         <activity android:name="com.binainsanlesatari.aksis.ViewGuru.InputNilaiGuru" />
         <activity android:name="com.binainsanlesatari.aksis.ViewGuru.Siswa.ViewKelas" />
-        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.DashboardSiswa" />
+        <activity android:name="com.binainsanlesatari.aksis.ViewSiswa.MainFragmentSiswa" />
         <activity android:name="com.binainsanlesatari.aksis.WelcomeLogin" />
         <activity android:name="com.binainsanlesatari.aksis.ViewGuru.LoginGuru" />
         <activity android:name="com.binainsanlesatari.aksis.SplashScreen" >

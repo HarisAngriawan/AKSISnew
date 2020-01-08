@@ -4,108 +4,115 @@ import com.google.gson.annotations.SerializedName;
 
 public class Guru {
 
-	@SerializedName("jk")
-	private String jk;
+    @SerializedName("jk")
+    private String jk;
 
-	@SerializedName("wali_kelas")
-	private String waliKelas;
+    @SerializedName("wali_kelas")
+    private String waliKelas;
 
-	@SerializedName("no_hp")
-	private String noHp;
+    @SerializedName("no_hp")
+    private String noHp;
 
-	@SerializedName("pass")
-	private String pass;
+    @SerializedName("pass")
+    private String pass;
 
-	@SerializedName("npsn")
-	private String npsn;
+    @SerializedName("npsn")
+    private String npsn;
 
-	@SerializedName("mapel")
-	private String mapel;
+    @SerializedName("nama_sekolah")
+    private String nama_sekolah;
 
-	@SerializedName("alamat")
-	private String alamat;
+    @SerializedName("mapel")
+    private String mapel;
 
-	@SerializedName("nama")
-	private String nama;
+    @SerializedName("alamat")
+    private String alamat;
 
-	@SerializedName("nip")
-	private String nip;
+    @SerializedName("nama")
+    private String nama;
 
-	@SerializedName("foto")
-	private String foto;
+    @SerializedName("nip")
+    private String nip;
 
-	@SerializedName("piket")
-	private String piket;
+    @SerializedName("foto")
+    private String foto;
 
-	@SerializedName("status_aktif")
-	private String statusAktif;
+    @SerializedName("piket")
+    private String piket;
 
-	@SerializedName("id")
-	private String id;
+    @SerializedName("status_aktif")
+    private String statusAktif;
 
-	@SerializedName("id_pengguna")
-	private String idPengguna;
+    @SerializedName("id")
+    private String id;
 
-	@SerializedName("status")
-	private String status;
+    @SerializedName("id_pengguna")
+    private String idPengguna;
 
-	public String getJk(){
-		return jk;
-	}
+    @SerializedName("status")
+    private String status;
 
-	public String getWaliKelas(){
-		return waliKelas;
-	}
+    public String getJk() {
+        return jk;
+    }
 
-	public String getNoHp(){
-		return noHp;
-	}
+    public String getWaliKelas() {
+        return waliKelas;
+    }
 
-	public String getPass(){
-		return pass;
-	}
+    public String getNoHp() {
+        return noHp;
+    }
 
-	public String getNpsn(){
-		return npsn;
-	}
+    public String getNama_sekolah() {
+        return nama_sekolah;
+    }
 
-	public String getMapel(){
-		return mapel;
-	}
+    public String getPass() {
+        return pass;
+    }
 
-	public String getAlamat(){
-		return alamat;
-	}
+    public String getNpsn() {
+        return npsn;
+    }
 
-	public String getNama(){
-		return nama;
-	}
+    public String getMapel() {
+        return mapel;
+    }
 
-	public String getNip(){
-		return nip;
-	}
+    public String getAlamat() {
+        return alamat;
+    }
 
-	public String getFoto(){
-		return foto;
-	}
+    public String getNama() {
+        return nama;
+    }
 
-	public String getPiket(){
-		return piket;
-	}
+    public String getNip() {
+        return nip;
+    }
 
-	public String getStatusAktif(){
-		return statusAktif;
-	}
+    public String getFoto() {
+        return foto;
+    }
 
-	public String getId(){
-		return id;
-	}
+    public String getPiket() {
+        return piket;
+    }
 
-	public String getIdPengguna(){
-		return idPengguna;
-	}
+    public String getStatusAktif() {
+        return statusAktif;
+    }
 
-	public String getStatus(){
-		return status;
-	}
+    public String getId() {
+        return id;
+    }
+
+    public String getIdPengguna() {
+        return idPengguna;
+    }
+
+    public String getStatus() {
+        return status;
+    }
 }

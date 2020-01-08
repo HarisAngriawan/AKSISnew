@@ -1584,6 +1584,10 @@
         "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\activity_add_laporan_pelajaran.xml"
     },
     {
+        "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile_siswa.xml.flat",
+        "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\fragment_profile_siswa.xml"
+    },
+    {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_tansition_animation.xml.flat",
         "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\anim\\fade_tansition_animation.xml"
     },
@@ -1876,6 +1880,10 @@
         "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dashboard_siswa.xml.flat",
+        "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\fragment_dashboard_siswa.xml"
+    },
+    {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "C:\\Users\\TxQQ\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
@@ -2002,6 +2010,10 @@
     {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\TxQQ\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile_guru.xml.flat",
+        "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\fragment_profile_guru.xml"
     },
     {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\font_bitter.xml.flat",
@@ -2512,10 +2524,6 @@
         "source": "C:\\Users\\TxQQ\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
-        "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\fragment_profile.xml"
-    },
-    {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_pelanggaran.xml.flat",
         "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\activity_view_pelanggaran.xml"
     },
@@ -2628,6 +2636,10 @@
         "source": "C:\\Users\\TxQQ\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_fragment_siswa.xml.flat",
+        "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\activity_main_fragment_siswa.xml"
+    },
+    {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\TxQQ\\.gradle\\caches\\transforms-2\\files-2.1\\d74b5b498b35fd5cb32d0a6997bb1d3d\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -2646,10 +2658,6 @@
     {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
         "source": "C:\\Users\\TxQQ\\.gradle\\caches\\transforms-2\\files-2.1\\2946ca0ea6c89dab7d7d9fbc18e54292\\material-1.0.0\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard_siswa.xml.flat",
-        "source": "H:\\Kantor\\new\\AKSISnew\\app\\src\\main\\res\\layout\\activity_dashboard_siswa.xml"
     },
     {
         "merged": "H:\\Kantor\\new\\AKSISnew\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
