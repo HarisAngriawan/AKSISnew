@@ -7,6 +7,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.binainsanlesatari.aksis.R;
 import com.binainsanlesatari.aksis.adapter.adapterGuru.AdpPermohonanIzin;
@@ -48,6 +49,28 @@ public class PermohonanIzin extends AppCompatActivity {
         rvPermohonanIzin.setAdapter(adpPermohonanIzin);
 
         getPermohonanIzin();
+        final SwipeRefreshLayout dorefresh = (SwipeRefreshLayout)findViewById(R.id.refreshPermohonanIzin);
+        dorefresh.setColorSchemeResources(android.R.color.holo_blue_bright,
+                android.R.color.holo_green_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_red_light);
+
+        dorefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener(){
+            @Override
+            public void onRefresh() {
+                refreshItem();
+            }
+
+            void refreshItem() {
+                getPermohonanIzin();
+                onItemLoad();
+            }
+
+            void onItemLoad() {
+                dorefresh.setRefreshing(false);
+            }
+
+        });
 
     }
 

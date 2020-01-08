@@ -185,6 +185,7 @@ public class FragmentHome extends Fragment {
 
 
     private void bindView(View v) {
+        gridMenu = v.findViewById(R.id.gridmenuGuru);
         profileImg = v.findViewById(R.id.profile_image);
         btnLaporanPelajaran = v.findViewById(R.id.LaporanPelajaran);
         btnKetidakHadiran = v.findViewById(R.id.ketidakHadiranSiswa);
@@ -192,7 +193,6 @@ public class FragmentHome extends Fragment {
         tvNama = v.findViewById(R.id.nama_guru);
         tvMapel = v.findViewById(R.id.mapel_guru);
         tvNpsn = v.findViewById(R.id.npsn_guru);
-        gridMenu = v.findViewById(R.id.gridmenu);
         btnRating = v.findViewById(R.id.rating_Guru);
         btnGuruViewSiswa = v.findViewById(R.id.guru_data_siswa);
         btnCatKonseling = v.findViewById(R.id.guru_konseling);

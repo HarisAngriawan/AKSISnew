@@ -73,5 +73,4 @@ public class AppParams {
     public static String IZINSTATUS = "IZINSTATUS";
     public static String IZINFOTO = "IZINFOTO";
 
-
 }

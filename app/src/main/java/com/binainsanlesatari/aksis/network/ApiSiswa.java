@@ -2,6 +2,9 @@ package com.binainsanlesatari.aksis.network;
 
 import com.binainsanlesatari.aksis.model.SiswaModel.InputPermohonan;
 import com.binainsanlesatari.aksis.model.SiswaModel.Laporanpelajaransiswa;
+import com.binainsanlesatari.aksis.model.SiswaModel.PelanggaranSiswa.DetaailPelanggaranItem;
+import com.binainsanlesatari.aksis.model.SiswaModel.PelanggaranSiswa.DetailPelanggaran;
+import com.binainsanlesatari.aksis.model.SiswaModel.PelanggaranSiswa.JumlahPelanggaran;
 import com.binainsanlesatari.aksis.model.SiswaModel.uploadimg;
 
 import okhttp3.MultipartBody;
@@ -18,13 +21,13 @@ public interface ApiSiswa {
     @FormUrlEncoded
     @POST("insertsuratpermohonan.php")
     Call<InputPermohonan> insertpermohonan(
-            @Field("alasan")String alasan,
-            @Field("tanggal")String tgl,
-            @Field("url")String imgpath,
-            @Field("nama")String nama,
-            @Field("nisn")String nisn,
-            @Field("npsn")String npsn,
-            @Field("kelas")String kelas
+            @Field("alasan") String alasan,
+            @Field("tanggal") String tgl,
+            @Field("url") String imgpath,
+            @Field("nama") String nama,
+            @Field("nisn") String nisn,
+            @Field("npsn") String npsn,
+            @Field("kelas") String kelas
 
     );
 
@@ -33,24 +36,42 @@ public interface ApiSiswa {
     Call<uploadimg> uploadImage(
             @Part MultipartBody.Part image
     );
+
     @FormUrlEncoded
     @POST("updateprofilsiswa.php")
     Call<InputPermohonan> updateprofil(
-            @Field("foto")String foto,
-            @Field("nisn")String nisn
+            @Field("foto") String foto,
+            @Field("nisn") String nisn
 
     );
+
     @FormUrlEncoded
     @POST("getprofilsiswa.php")
     Call<uploadimg> getprofilsiswa(
-            @Field("nisn")String nisn
+            @Field("nisn") String nisn
 
     );
+
     @GET("getlaporanpelajaransiswa.php")
     Call<Laporanpelajaransiswa> getlaporansiswa(
-            @Query("tgl")String tgl,
-            @Query("npsn")String npsn,
-            @Query("kelas")String kls
+            @Query("tgl") String tgl,
+            @Query("npsn") String npsn,
+            @Query("kelas") String kls
 
+    );
+
+    @GET("getJumlahPelanggaranSiswa.php")
+    Call<JumlahPelanggaran> getJumlahPelanggaran(
+            @Query("pass") String pass,
+            @Query("npsn") String npsn,
+            @Query("nisn") String nisn
+    );
+
+    @GET("getDetailPelaggaranSiswa.php")
+    Call<DetailPelanggaran> getDetailPelanggaran(
+            @Query("pass") String pass,
+            @Query("npsn") String npsn,
+            @Query("nisn") String nisn,
+            @Query("kategori_pelanggaran") String kategori
     );
 }

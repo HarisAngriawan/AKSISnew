@@ -1217,10 +1217,12 @@ drawable surat_permohonan
 drawable tambah
 drawable teacher
 drawable text_box
+drawable textview_border_alll
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable trophy
 drawable user
+drawable vect_pelanggaran
 drawable warning
 font actor
 font amaranth
@@ -1473,6 +1475,7 @@ id frame_layout
 id ghost_view
 id gone
 id gridmenu
+id gridmenuGuru
 id group_divider
 id groups
 id guideline2
@@ -1496,6 +1499,7 @@ id imageView2
 id imgEditFoto
 id imgEditFotoS
 id imgIzinPicture
+id imgPelanggaranSiswa
 id imgProfileSiswa
 id imgViewSiswa
 id info
@@ -1593,6 +1597,7 @@ id radio
 id rating
 id rating_Guru
 id rating_image
+id refreshPermohonanIzin
 id relativeLayout
 id restart
 id reverse
@@ -1603,6 +1608,7 @@ id right_to_left
 id rvAlumni
 id rvCatatanKonseling
 id rvDetailPelanggaran
+id rvDetailSiswaPelanggaran
 id rvHomeVisit
 id rvKehadiran
 id rvKelas
@@ -1614,6 +1620,7 @@ id rvNilaiUH
 id rvNilaiUTS
 id rvPanggilanoOrtu
 id rvPelanggaran
+id rvPelanggaranSiswa
 id rvPermohonanIzin
 id rvPrestasi
 id rvRating
@@ -1732,6 +1739,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id tvAngkatan
+id tvCountPelanggaran
+id tvDataPelanggaranKatergori
 id tvEditNamaGuru
 id tvEditNpsnSekolah
 id tvGuruLaporan
@@ -1750,11 +1759,13 @@ id tvKelasPS
 id tvKelasPelanggar
 id tvKelasPrestasi
 id tvKeterangan
+id tvKeteranganPelangagran
 id tvKonselor
 id tvLoading
 id tvMapelLaporan
 id tvMapelLaporanSiswa
 id tvNamaGuru
+id tvNamaGuruPelapor
 id tvNamaPelanggaran
 id tvNamaS
 id tvNamaSiswa
@@ -1773,6 +1784,8 @@ id tvNopeHadirKelas
 id tvNopeHadirNama
 id tvNopeHadirNisn
 id tvNpsnS
+id tvPelanggaranJam
+id tvPelanggaranTanggal
 id tvProfileAgama
 id tvProfileAlamat
 id tvProfileAsalSD
@@ -1790,7 +1803,9 @@ id tvProfileTinggalDengan
 id tvProfilenoHp
 id tvSeacrhSiswaKelas
 id tvSiswaPretasi
+id tvStatusPelanggaran
 id tvStatusSurat
+id tvStatusTeguran
 id tvStudentClass
 id tvStudentNISN
 id tvStudentNama
@@ -1801,6 +1816,7 @@ id tvTanggalLaporanSiswa
 id tvTanggalPelanggaran
 id tvTemaLaporan
 id tvTemaLaporanSiswa
+id tvTempatPelanggaran
 id tvTglPrestasi
 id tvThAjaranCK
 id tvThAjaranHV
@@ -1899,7 +1915,9 @@ layout activity_add_laporan_pelajaran
 layout activity_add_panggilan_ortu
 layout activity_add_pelanggaran
 layout activity_add_prestasi_siswa
+layout activity_board_pelanggaran_siswa
 layout activity_change_password
+layout activity_detail_pelanggaran_siswa
 layout activity_detail_permohonan_izin
 layout activity_edit_profil_siswa
 layout activity_edit_profile_guru
@@ -2005,7 +2023,9 @@ layout search_siswa_item
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout siswa_detail_pelanggaran_item
 layout siswa_item
+layout siswa_pelanggaran_item
 layout support_simple_spinner_dropdown_item
 menu bottom_nav
 menu search

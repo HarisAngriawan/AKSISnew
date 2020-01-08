@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.mohammadatif:Animatoo:master] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\abe99a430a185a0c7779313d6af22dcd\Animatoo-master\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\d74b5b498b35fd5cb32d0a6997bb1d3d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -44,20 +44,20 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\TxQQ\.gradle\caches\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\df65787e67fe4b4bc0635deed9695797\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\a1f5477cd6fd5fad9baa3e263bec7d60\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\60b50828def4ba3859898ffb4c971c21\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
-INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
+INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
 	package
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml
 		INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-83:12
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:1-85:12
 		INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:2:11-69
@@ -82,7 +82,7 @@ ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:9:5-65
 	android:name
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:9:22-62
 application
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:11:5-81:19
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:11:5-83:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\TxQQ\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -109,220 +109,228 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Tx
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:17:9-40
 	android:usesCleartextTraffic
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:18:9-44
+activity#com.binainsanlesatari.aksis.ViewSiswa.PelanggaranSiswa.DetailPelanggaranSiswa
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:19:9-96
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:19:19-84
+activity#com.binainsanlesatari.aksis.ViewSiswa.PelanggaranSiswa.BoardPelanggaranSiswa
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:9-86
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:19-83
 activity#com.binainsanlesatari.aksis.ViewGuru.Izin.DetailPermohonanIzin
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:19:9-81
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:21:9-72
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:19:19-69
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:21:19-69
 activity#com.binainsanlesatari.aksis.ViewSiswa.EditProfileSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:9-64
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:22:9-64
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:20:19-61
-activity#com.binainsanlesatari.aksis.ViewSiswa.laporan_pelajaran_siswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:21:9-71
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:22:19-61
+activity#com.binainsanlesatari.aksis.ViewSiswa.LaporanPelajaranSiswa
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:23:9-69
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:21:19-68
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:23:19-66
 activity#com.binainsanlesatari.aksis.ViewSiswa.Suratpermohonan
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:22:9-63
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:24:9-63
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:22:19-60
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:24:19-60
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.UpdateNilai.UpdateNilaiTugas
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:23:9-86
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:25:9-86
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:23:19-83
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:25:19-83
 activity#com.binainsanlesatari.aksis.ViewGuru.Siswa.ProfileSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:24:9-65
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:26:9-65
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:24:19-62
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:26:19-62
 activity#com.binainsanlesatari.aksis.ViewGuru.LaporanPelajaran.addLaporanPelajaran
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:25:9-83
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:27:9-83
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:25:19-80
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:27:19-80
 activity#com.binainsanlesatari.aksis.ViewGuru.LaporanPelajaran.LaporanPelajaranSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:26:9-85
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:28:9-85
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:26:19-82
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:28:19-82
 activity#com.binainsanlesatari.aksis.ViewGuru.PanggilanOrtu.PanggilanOrtu
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:27:9-74
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:29:9-74
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:27:19-71
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:29:19-71
 activity#com.binainsanlesatari.aksis.ViewGuru.PanggilanOrtu.AddPanggilanOrtu
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:28:9-77
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:30:9-77
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:28:19-74
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:30:19-74
 activity#com.binainsanlesatari.aksis.ViewGuru.PermohonanIzin
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:29:9-61
-	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:29:19-58
-activity#com.binainsanlesatari.aksis.ViewGuru.Ketidakhadiran
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:30:9-61
-	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:30:19-58
-activity#com.binainsanlesatari.aksis.ViewGuru.ChangePassword
 ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:31:9-61
 	android:name
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:31:19-58
+activity#com.binainsanlesatari.aksis.ViewGuru.Ketidakhadiran
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:32:9-61
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:32:19-58
+activity#com.binainsanlesatari.aksis.ViewGuru.ChangePassword
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:33:9-61
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:33:19-58
 activity#com.binainsanlesatari.aksis.ViewGuru.Konseling.InputKonseling
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:32:9-71
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:34:9-71
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:32:19-68
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:34:19-68
 activity#com.binainsanlesatari.aksis.ViewGuru.Prestasi.InputPrestasiSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:33:9-74
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:35:9-74
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:33:19-71
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:35:19-71
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiUAS
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:34:9-78
-	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:34:19-75
-activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiTugas
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:35:9-80
-	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:35:19-77
-activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiUTS
 ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:36:9-78
 	android:name
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:36:19-75
+activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiTugas
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:37:9-80
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:37:19-77
+activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiUTS
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:38:9-78
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:38:19-75
 activity#com.binainsanlesatari.aksis.ViewGuru.TakeAllStudents
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:37:9-62
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:39:9-62
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:37:19-59
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:39:19-59
 activity#com.binainsanlesatari.aksis.ViewGuru.PenelusuranAlumni.InsertPenelusuranAlumni.InsertAlumni
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:38:9-101
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:40:9-101
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:38:19-98
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:40:19-98
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.GetNilai.GetNilaiUH
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:39:9-77
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:41:9-77
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:39:19-74
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:41:19-74
 activity#com.binainsanlesatari.aksis.ViewGuru.HomeVisit.InputHomeVisit.InsertHomeVisit
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:40:9-87
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:42:9-87
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:40:19-84
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:42:19-84
 activity#com.binainsanlesatari.aksis.ViewGuru.HomeVisit.CatatanHomeVisit
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:41:9-73
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:43:9-73
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:41:19-70
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:43:19-70
 activity#com.binainsanlesatari.aksis.ViewGuru.Konseling.CatatanKoseling
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:42:9-72
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:44:9-72
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:42:19-69
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:44:19-69
 activity#com.binainsanlesatari.aksis.ViewGuru.PenelusuranAlumni.PenelusuranAlumni
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:43:9-82
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:45:9-82
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:43:19-79
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:45:19-79
 activity#com.binainsanlesatari.aksis.ViewGuru.Kehadiran.KehadiranSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:44:9-71
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:46:9-71
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:44:19-68
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:46:19-68
 activity#com.binainsanlesatari.aksis.ViewGuru.MainFragment
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:45:9-59
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:47:9-59
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:45:19-56
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:47:19-56
 activity#com.binainsanlesatari.aksis.ViewSiswa.LoginSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:46:9-58
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:48:9-58
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:46:19-55
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:48:19-55
 activity#com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.inputPelanggaran.mainInputPelanggaran
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:47:9-96
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:49:9-96
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:47:19-93
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:49:19-93
 activity#com.binainsanlesatari.aksis.IntroApps
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:48:9-47
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:50:9-47
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:48:19-44
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:50:19-44
 activity#com.binainsanlesatari.aksis.ViewGuru.Rating.Rating
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:49:9-60
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:51:9-60
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:49:19-57
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:51:19-57
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_UAS
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:50:9-72
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:52:9-72
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:50:19-69
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:52:19-69
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_UTS
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:51:9-72
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:53:9-72
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:51:19-69
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:53:19-69
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_Tugas
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:52:9-74
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:54:9-74
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:52:19-71
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:54:19-71
 activity#com.binainsanlesatari.aksis.ViewGuru.Prestasi.Prestasi
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:53:9-64
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:55:9-64
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:53:19-61
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:55:19-61
 activity#com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.Pelanggaran
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:54:9-70
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:56:9-70
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:54:19-67
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:56:19-67
 activity#com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.dataPelanggaran.getPelanggaran
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:55:9-89
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:57:9-89
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:55:19-86
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:57:19-86
 activity#com.binainsanlesatari.aksis.ViewGuru.Pelanggaran.dataPelanggaran.ViewPelanggaran
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:56:9-90
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:58:9-90
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:56:19-87
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:58:19-87
 activity#com.binainsanlesatari.aksis.ViewGuru.Siswa.GetSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:57:9-61
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:59:9-61
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:57:19-58
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:59:19-58
 activity#com.binainsanlesatari.aksis.ViewGuru.EditProfileGuru
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:58:9-62
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:60:9-62
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:58:19-59
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:60:19-59
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilai.InputNilai_UH
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:59:9-71
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:61:9-71
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:59:19-68
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:61:19-68
 activity#com.binainsanlesatari.aksis.ViewGuru.InputNilaiGuru
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:60:9-61
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:9-61
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:60:19-58
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:19-58
 activity#com.binainsanlesatari.aksis.ViewGuru.Siswa.ViewKelas
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:61:9-62
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:63:9-62
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:61:19-59
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:63:19-59
 activity#com.binainsanlesatari.aksis.ViewSiswa.MainFragmentSiswa
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:9-65
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:64:9-65
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:62:19-62
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:64:19-62
 activity#com.binainsanlesatari.aksis.WelcomeLogin
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:63:9-50
-	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:63:19-47
-activity#com.binainsanlesatari.aksis.ViewGuru.LoginGuru
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:64:9-56
-	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:64:19-53
-activity#com.binainsanlesatari.aksis.SplashScreen
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:65:9-76:20
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:65:9-50
 	android:name
 		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:65:19-47
+activity#com.binainsanlesatari.aksis.ViewGuru.LoginGuru
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:66:9-56
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:66:19-53
+activity#com.binainsanlesatari.aksis.SplashScreen
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:67:9-78:20
+	android:name
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:67:19-47
 intent-filter#action:name:android.intent.action.MAIN+action:name:android.intent.action.SEARCH+category:name:android.intent.category.LAUNCHER
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:66:13-71:29
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:68:13-73:29
 action#android.intent.action.MAIN
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:67:17-69
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:69:17-69
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:67:25-66
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:69:25-66
 action#android.intent.action.SEARCH
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:68:17-71
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:70:17-71
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:68:25-68
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:70:25-68
 category#android.intent.category.LAUNCHER
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:70:17-77
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:72:17-77
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:70:27-74
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:72:27-74
 meta-data#android.app.searchable
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:73:13-75:54
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:75:13-77:54
 	android:resource
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:75:17-51
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:77:17-51
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:74:17-54
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:76:17-54
 meta-data#preloaded_fonts
-ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:78:9-80:57
+ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:80:9-82:57
 	android:resource
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:80:13-54
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:82:13-54
 	android:name
-		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:79:13-43
+		ADDED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml:81:13-43
 uses-sdk
 INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from H:\Kantor\new\AKSISnew\app\src\main\AndroidManifest.xml

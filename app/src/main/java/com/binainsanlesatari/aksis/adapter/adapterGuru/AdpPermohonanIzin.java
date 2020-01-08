@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.binainsanlesatari.aksis.R;
 import com.binainsanlesatari.aksis.ViewGuru.Izin.DetailPermohonanIzin;

@@ -9,7 +9,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.binainsanlesatari.aksis.R;
-import com.binainsanlesatari.aksis.ViewGuru.Konseling.InputKonseling;
 import com.binainsanlesatari.aksis.adapter.adapterSiswa.Adplaporanpelajaransiswa;
 import com.binainsanlesatari.aksis.model.SiswaModel.DataLaporanPelajaranItem;
 import com.binainsanlesatari.aksis.model.SiswaModel.Laporanpelajaransiswa;
@@ -27,7 +26,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class laporan_pelajaran_siswa extends AppCompatActivity {
+public class LaporanPelajaranSiswa extends AppCompatActivity {
 
     DatePickerDialog datePickerDialogpicker;
     private PrefManagerSiswa prefManagerSiswa;
@@ -68,7 +67,7 @@ public class laporan_pelajaran_siswa extends AppCompatActivity {
                 int month = calendar.get(Calendar.MONTH);
                 int year = calendar.get(Calendar.YEAR);
 
-                datePickerDialogpicker = new DatePickerDialog(laporan_pelajaran_siswa.this, new DatePickerDialog.OnDateSetListener() {
+                datePickerDialogpicker = new DatePickerDialog(LaporanPelajaranSiswa.this, new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
                         dateView.setText(year + "-" + (monthOfYear + 1) + "-" + dayOfMonth);
